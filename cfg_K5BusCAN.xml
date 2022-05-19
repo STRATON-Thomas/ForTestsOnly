@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <networks>
+   </networks>
+   <fieldbus>
+   <K5BusCAN VERSION="1" K5ID="1" __F="-1" FIFOSIZE="0" NEXTID="6" DLLVERSION="0">
+   <fieldbusmaster VERSION="1" K5ID="3" SETTINGS="" __F="-1" DESC="" TYPE="0" REPEATER="" RATE="100">
+   <fieldbusslave VERSION="1" K5ID="4" ROUTE="" RTR="0" __F="-1" MODE="0" LENGTH="8" MSG#4H="000" DESC="" TMIN="0" DATA="" TMAX="0" SUBSTID="">
+   <fieldbusvar VERSION="1" K5ID="5" RANGEHI="" BIT="0" OFFSET="0" SIGHI="" STORAGE="1" SIZE="0" __F="-1" MODE="0" __UNDEF__="1" SIGLO="" FORMAT="0" NAME="Test_CANbus" DIAG="0" RANGELO=""/>
+   </fieldbusslave>
+   </fieldbusmaster>
+   </K5BusCAN>
+   </fieldbus>
+</K5project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <networks>
+   </networks>
+   <fieldbus>
+   <K5BusJ1939 VERSION="1" K5ID="1" __F="-17" NEXTID="5" DLLVERSION="2">
+   <fieldbusmaster VERSION="1" K5ID="2" SETTINGS="" __F="-1" REPEAT="0" DESC="" FORWARD="0" TYPE="1" J1939="1" ECU="33" RATE="100">
+   <fieldbusslave VERSION="1" K5ID="3" RTR="0" __F="-5" MODE="0" PRIOMASK="1" MSG#4H="1C002100" LENGTH="8" DESC="TSC1: Torque/Speed Control 1" TMIN="50" MODEVIS="Received" PORT="" DATA="" TMAX="0" SAMASK="0">
+   <fieldbusvar VERSION="1" K5ID="4" RANGEHI="" BIT="0" OFFSET="4" SIGHI="" STORAGE="1" SIZE="131" __F="-5" MODE="0" SPNAME="TSC1TransmissionRate" __UNDEF__="1" SIGLO="" SPNID="S:3349" FORMAT="2" SPN="TSC1 Transmission Rate" NAME="Test_J1939" DIAG="0" RANGELO=""/>
+   </fieldbusslave>
+   </fieldbusmaster>
+   </K5BusJ1939>
+   </fieldbus>
+</K5project>

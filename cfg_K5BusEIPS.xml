@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <networks>
+   </networks>
+   <fieldbus>
+   <K5BusEIPS VERSION="1" K5ID="1" IP="" __F="-2" LAN2="0" NEXTID="5" DLLVERSION="3">
+   <fieldbusmaster VERSION="1" K5ID="2" __F="-31">
+   <fieldbusslave VERSION="1" K5ID="3" INST="1" SIZE="2" CLASS="" __F="-1" DESC="" OBJ="0" ACCESS="0">
+   <fieldbusvar VERSION="1" K5ID="4" RANGEHI="" BIT="0" OFFSET="0" SIGHI="" __F="-1" __UNDEF__="1" SIGLO="" FORMAT="0" NAME="Test_Eth_IP" RANGELO=""/>
+   </fieldbusslave>
+   </fieldbusmaster>
+   </K5BusEIPS>
+   </fieldbus>
+</K5project>

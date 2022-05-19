@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<K5project version="1.1">
+   <networks>
+      <asi applyconfig="0">
+         <asimaster name="AS-i Master" settings="">
+            <asislave name="" address="1" profile="0.0.0.0">
+               <asiinput bit="1" neg="0" symbol="Test_ASi"/>
+            </asislave>
+         </asimaster>
+      </asi>
+   </networks>
+   <fieldbus>
+   </fieldbus>
+</K5project>
