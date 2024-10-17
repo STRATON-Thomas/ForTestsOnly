@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<Appli>
+   <Folder Name="Exception programs">
+      <Program Name="pOnBadIndex"/>
+      <Program Name="pOnDivZero"/>
+      <Program Name="pShutDown"/>
+      <Program Name="pStartup"/>
+   </Folder>
+   <Folder Name="Programs">
+      <Program Name="t_FBD"/>
+      <Program Name="t_FFLD"/>
+      <Program Name="t_FFSFC"/>
+      <Program Name="t_IL"/>
+      <Program Name="t_LD"/>
+      <Program Name="t_SAMA"/>
+      <Program Name="t_SFC"/>
+      <Program Name="t_ST"/>
+   </Folder>
+   <Folder Name="SubPrograms">
+      <Program Name="iecDT2UNIX"/>
+      <Program Name="iecUNIX2DT"/>
+      <Program Name="SPInAnSP"/>
+      <Program Name="t_SP_FBD"/>
+   </Folder>
+   <Folder Name="UDFBs">
+      <Program Name="BlinkAET"/>
+      <Program Name="BlinkAET_ST_AB"/>
+   </Folder>
+   <Folder Name="Watch (for debugging)">
+      <File Name="Soft Scope.SS5"/>
+      <File Name="t_Graphics.gra"/>
+   </Folder>
+   <File Name="ied.icd"/>
+   <File Name="Signals.sgl"/>
+   <File Name="t_Recipe.rcp"/>
+   <File Name="TestSeq.seq"/>
+   <FieldBus/>
+   <Binding/>
+   <Profiles/>
+   <GlobalDef/>
+   <Vars/>
+   <Types/>
+</Appli>

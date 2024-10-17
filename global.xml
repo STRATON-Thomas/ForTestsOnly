@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+   <variables>
+      <vargroup name="(Global)" kind="GLOBAL">
+         <var name="lrVar" type="LREAL" dim="20"/>
+         <var name="bVar" type="BOOL"/>
+         <var name="MyBOOL" type="BOOL"/>
+         <var name="MyINT" type="INT"/>
+         <var name="MyUINT" type="UINT"/>
+         <var name="MyWORD" type="WORD"/>
+         <var name="MyDINT" type="DINT"/>
+         <var name="MyUDINT" type="UDINT"/>
+         <var name="MyDWORD" type="DWORD"/>
+         <var name="MyREAL" type="REAL"/>
+      </vargroup>
+      <vargroup name="(Retain)" kind="RETAIN">
+      </vargroup>
+   </variables>
+</K5project>

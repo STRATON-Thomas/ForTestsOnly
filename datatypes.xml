@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+   <types>
+      <type name="BitField1" kind="BITFIELD" base="INT" bits="">
+      </type>
+      <type name="EnumType1" kind="ENUM">
+      <enumval value="V0"/>
+      <enumval value="V1"/>
+      </type>
+      <type name="NewStructure" kind="STRUCT" desc="">
+         <var name="NewVar" type="BOOL"/>
+         <var name="NewVar1" type="BOOL"/>
+         <var name="NewVar2" type="BOOL"/>
+      </type>
+      <type name="Structure1" kind="STRUCT" desc="">
+         <var name="Var1" type="BOOL"/>
+         <var name="Var2" type="BOOL"/>
+      </type>
+      <type name="Union1" kind="UNION" desc="">
+         <var name="UByte1" type="BYTE" dim="2"/>
+         <var name="UWord1" type="WORD"/>
+      </type>
+   </types>
+</K5project>

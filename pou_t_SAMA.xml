@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+   <programs>
+      <pou name="t_SAMA" kind="program" period="1" phase="0" lge="SAMA">
+         <vargroup name="t_SAMA" kind="LOCAL">
+            <var name="tS1" type="REAL"/>
+            <var name="tS2" type="REAL"/>
+         </vargroup>
+<defines name="t_SAMA"></defines>
+      <FF_SAMA VERSION="1">
+         <BLOCK ID="19" X="3" Y="9" CX="8" CY="4" TYPE="SYB_CONTROLLING" INST="tS2"/>
+         <BLOCK ID="20" X="5" Y="2" CX="4" CY="4" TYPE="SYB_CONNECTOR" INST="tS1" Preview="NO">
+            <PAR name="AO" Preview="NO"/>
+            <PAR name="DI" Preview="NO"/>
+            <PAR name="DO" Preview="NO"/>
+            <PAR name="AI" Preview="NO"/>
+         </BLOCK>
+         <LINE ID="21" IDFROM="20" IDTO="19" PINFROM="AO" PINTO="IN"/>
+      </FF_SAMA>
+      </pou>
+   </programs>
+</K5project>

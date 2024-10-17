@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+   <programs>
+      <pou name="t_ST" kind="program" period="1" phase="0" lge="ST">
+         <vargroup name="t_ST" kind="LOCAL">
+            <var name="printCountVar" type="DINT"/>
+            <var name="Inst_blinkA" type="blinkA"/>
+            <var name="testvar" type="REAL"/>
+            <var name="TestIfCondition_ST" type="BOOL"/>
+         </vargroup>
+<defines name="t_ST">#define 测试테스트テストô 28
+</defines>
+         <sourceSTIL>
+//Cycle Test
+
+Inst_blinkA(TRUE, T#1000ms, T#1ms);
+if Inst_blinkA.Q = TRUE then
+    printCountVar += 1;
+    printf(&apos;RUNNING Test - Elapsed Time = &apos;+any_to_string(printCountVar)+&apos; s&apos;,printCountVar,0,0,0);
+end_if;
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//other code
+
+
+if TestIfCondition_ST then
+    testvar := ROUND_REAL(3.14);
+end_if;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+         </sourceSTIL>
+      </pou>
+   </programs>
+</K5project>

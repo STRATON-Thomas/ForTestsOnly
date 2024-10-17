@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+   <programs>
+      <pou name="BlinkAET_ST_AB" kind="UDFB" lge="ST">
+         <vargroup name="BlinkAET_ST_AB" kind="LOCAL">
+            <var name="RUN" type="BOOL" attr="IN"/>
+            <var name="TM0" type="TIME" attr="IN"/>
+            <var name="TM1" type="TIME" attr="IN"/>
+            <var name="Q" type="BOOL" attr="OUT"/>
+            <var name="ETM0" type="TIME" attr="OUT"/>
+            <var name="ETM1" type="TIME" attr="OUT"/>
+            <var name="Inst_blinkA" type="blinkA"/>
+            <var name="Inst_TON1" type="TON"/>
+            <var name="Inst_TON0" type="TON"/>
+         </vargroup>
+<defines name="BlinkAET_ST_AB"></defines>
+         <sourceSTIL>Inst_blinkA(RUN(*BOOL*), TM0(*TIME*), TM1(*TIME*));
+Inst_TON1(Inst_blinkA.Q(*BOOL*), TM1(*TIME*));
+Inst_TON0(NOT(Inst_blinkA.Q)(*BOOL*), TM0(*TIME*));
+ETM1(*TIME*) := Inst_TON1.ET(*TIME*);
+ETM0(*TIME*) := Inst_TON0.ET(*TIME*);
+         </sourceSTIL>
+      </pou>
+   </programs>
+</K5project>

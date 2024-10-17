@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+   <programs>
+      <pou name="t_FFLD" kind="program" period="1" phase="0" lge="FFL">
+         <vargroup name="t_FFLD" kind="LOCAL">
+         </vargroup>
+<defines name="t_FFLD"></defines>
+         <sourceSTIL>#info=FFL
+Network:N=1,Z=5,I=0,S=1,C=-1,D=0,T=
+Lab:
+Pragma:
+Cell:BOX,X=1,Y=0,H=0,V=0,N=4,S=1,C=0,T=1
+Cell:NOP,X=0,Y=1,H=1,V=0,S=1,C=0,T=
+Cell:OTE,X=2,Y=1,H=0,V=0,S=1,C=0,T=
+Cell:INP,X=0,Y=2,H=0,V=0,S=1,C=0,T=-360.0
+End_Network
+Network:N=1,Z=30,I=2,S=1,C=-1,D=0,T=
+Lab:
+Pragma:
+Cell:BOX,X=1,Y=0,H=0,V=0,N=4,S=1,C=0,T=1
+Cell:NOP,X=0,Y=1,H=1,V=0,S=1,C=0,T=
+Cell:OTE,X=2,Y=1,H=0,V=0,S=1,C=0,T=
+Cell:INP,X=0,Y=2,H=0,V=0,S=1,C=0,T=0.7
+Cell:OUT,X=2,Y=2,H=0,V=0,S=1,C=0,T=lrVar[10]
+Cell:BOX,X=1,Y=4,H=0,V=0,N=4,S=1,C=0,T=1
+Cell:NOP,X=0,Y=5,H=1,V=0,S=1,C=0,T=
+Cell:OTE,X=2,Y=5,H=0,V=0,S=1,C=0,T=
+Cell:INP,X=0,Y=6,H=0,V=0,S=1,C=0,T=REAL#0.7
+Cell:OUT,X=2,Y=6,H=0,V=0,S=1,C=0,T=lrVar[11]
+Cell:BOX,X=1,Y=8,H=0,V=0,N=4,S=1,C=0,T=1
+Cell:NOP,X=0,Y=9,H=1,V=0,S=1,C=0,T=
+Cell:OTE,X=2,Y=9,H=0,V=0,S=1,C=0,T=
+Cell:INP,X=0,Y=10,H=0,V=0,S=1,C=0,T=LREAL#0.7
+Cell:OUT,X=2,Y=10,H=0,V=0,S=1,C=0,T=lrVar[12]
+End_Network
+Network:N=1,Z=1,I=1,S=1,C=-1,D=0,T=
+Lab:
+Pragma:
+End_Network
+#endinfo
+         </sourceSTIL>
+      </pou>
+   </programs>
+</K5project>

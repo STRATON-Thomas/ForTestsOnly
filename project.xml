@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+<prjcomment>test</prjcomment>
+   <settings>
+      <utf8comms value="ON"/>
+      <triggering cycletiming="0"/>
+      <compiler>
+         <cmpoptions>
+            <opt name="configname" value="Default"/>
+            <opt name="simul" value="ON"/>
+            <opt name="debug" value="ON"/>
+            <opt name="ctseg" value="ON"/>
+            <opt name="fbdflow" value="OFF"/>
+            <opt name="fbd2st" value="OFF"/>
+            <opt name="embedsymbols" value="ON"/>
+            <opt name="embedsybcase" value="OFF"/>
+            <opt name="warning" value="ON"/>
+            <opt name="warniserr" value="OFF"/>
+            <opt name="sfcsafe" value="OFF"/>
+            <opt name="fbdoptim" value="OFF"/>
+            <opt name="ldoptim" value="OFF"/>
+            <opt name="checksybconflicts" value="ON"/>
+            <opt name="ststrict" value="ON"/>
+            <opt name="ieccheck" value="OFF"/>
+            <opt name="tracepousize" value="OFF"/>
+            <opt name="checkprofile" value="OFF"/>
+            <opt name="safearray" value="ON"/>
+            <opt name="norealeq" value="OFF"/>
+            <opt name="stan" value="OFF"/>
+            <opt name="vsi" value="OFF"/>
+            <opt name="fbcheck" value="OFF"/>
+            <opt name="noiostep" value="OFF"/>
+            <opt name="rtrigno0" value="OFF"/>
+            <opt name="ushr" value="OFF"/>
+            <opt name="uplall" value="OFF"/>
+            <opt name="strictretaincrc" value="OFF"/>
+            <opt name="logcsvheader" value="OFF"/>
+            <opt name="optbool" value="OFF"/>
+            <opt name="loadupl" value="OFF"/>
+            <opt name="checkfbdinputs" value="OFF"/>
+            <opt name="updext" value="OFF"/>
+            <opt name="extdef" value="OFF"/>
+            <opt name="password" value=""/>
+            <opt name="mwlog" value="OFF"/>
+            <opt name="vmheap" value="-1"/>
+            <opt name="lock" value="NONE"/>
+            <opt name="cc" value=""/>
+            <opt name="cctooldir" value=""/>
+            <opt name="cctarget" value=""/>
+            <opt name="ccpure" value="OFF"/>
+            <opt name="ccload" value="OFF"/>
+            <opt name="ccshow" value="ON"/>
+            <opt name="cchot" value="OFF"/>
+            <opt name="mapuint" value="ON"/>
+            <opt name="mapstep" value="ON"/>
+            <opt name="nolrealprefix" value="OFF"/>
+         </cmpoptions>
+         <cmpsimulcode>
+            <opt name="target" value="T5SIMUL"/>
+            <opt name="suffix" value=".XWS"/>
+            <opt name="motorolaendian" value="OFF"/>
+            <opt name="t5style" value="ON"/>
+         </cmpsimulcode>
+         <cmptargetcode>
+            <opt name="target" value="T5RTI"/>
+            <opt name="suffix" value=".XTI"/>
+            <opt name="motorolaendian" value="OFF"/>
+            <opt name="t5style" value="ON"/>
+            <opt name="configname" value="T5RTI"/>
+            <opt name="comment" value="Straton T5 runtime (Intel like byte ordering)"/>
+         </cmptargetcode>
+      </compiler>
+      <onlinechange>
+         <opt name="enable" value="0"/>
+         <opt name="size_d8" value="80"/>
+         <opt name="size_d16" value="19"/>
+         <opt name="size_d32" value="135"/>
+         <opt name="size_d64" value="33"/>
+         <opt name="size_tmr" value="35"/>
+         <opt name="size_actmr" value="0"/>
+         <opt name="size_str" value="20"/>
+         <opt name="size_strbuf" value="3625"/>
+         <opt name="size_fbi" value="53"/>
+         <opt name="size_fbibuf" value="1420"/>
+         <opt name="size_publish" value="186"/>
+         <opt name="size_xv" value="0"/>
+         <opt name="size_ct" value="719"/>
+         <opt name="size_pou" value="23"/>
+      </onlinechange>
+   <onlinecsts/>
+   <config name="Default.CPO">olc=0
+hot=D8=80,D16=19,D32=135,D64=33,TMR=35,ACTMR=0,STR=20,STRBUF=3625,FBI=53,FBIBUF=1420,PUB=186,CT=719,POU=23,WSTRING=10
+tcy=0
+cpo:[OPTIONS]
+cpo:CONFIGNAME=Default
+cpo:SIMUL=ON
+cpo:DEBUG=ON
+cpo:CTSEG=ON
+cpo:FBDFLOW=OFF
+cpo:FBD2ST=OFF
+cpo:EMBEDSYMBOLS=ON
+cpo:EMBEDSYBCASE=OFF
+cpo:WARNING=ON
+cpo:WARNISERR=OFF
+cpo:SFCSAFE=OFF
+cpo:FBDOPTIM=OFF
+cpo:LDOPTIM=OFF
+cpo:CHECKSYBCONFLICTS=ON
+cpo:STSTRICT=ON
+cpo:IECCHECK=OFF
+cpo:TRACEPOUSIZE=OFF
+cpo:CHECKPROFILE=OFF
+cpo:SAFEARRAY=ON
+cpo:NOREALEQ=OFF
+cpo:STAN=OFF
+cpo:VSI=OFF
+cpo:FBCHECK=OFF
+cpo:NOIOSTEP=OFF
+cpo:RTRIGNO0=OFF
+cpo:USHR=OFF
+cpo:UPLALL=OFF
+cpo:STRICTRETAINCRC=OFF
+cpo:LOGCSVHEADER=OFF
+cpo:OPTBOOL=OFF
+cpo:LOADUPL=OFF
+cpo:CHECKFBDINPUTS=OFF
+cpo:UPDEXT=OFF
+cpo:EXTDEF=OFF
+cpo:PASSWORD=
+cpo:MWLOG=OFF
+cpo:VMHEAP=-1
+cpo:LOCK=NONE
+cpo:CC=
+cpo:CCTOOLDIR=
+cpo:CCTARGET=
+cpo:CCPURE=OFF
+cpo:CCLOAD=OFF
+cpo:CCSHOW=ON
+cpo:CCHOT=OFF
+cpo:MAPUINT=ON
+cpo:MAPSTEP=ON
+cpo:NOLREALPREFIX=OFF
+cpo:
+cpo:[SIMULCODE]
+cpo:TARGET=T5SIMUL
+cpo:SUFFIX=.XWS
+cpo:MOTOROLAENDIAN=OFF
+cpo:T5STYLE=ON
+cpo:
+cpo:[TARGETCODE]
+cpo:TARGET=T5RTI
+cpo:SUFFIX=.XTI
+cpo:MOTOROLAENDIAN=OFF
+cpo:T5STYLE=ON
+cpo:CONFIGNAME=T5RTI
+cpo:COMMENT=Straton T5 runtime (Intel like byte ordering)
+cpo:
+   </config>
+   </settings>
+   <libraries>
+      <library path="@Libs\GeneralPurpose"/>
+   </libraries>
+   <poulist>
+      <pou name="t_ST" sect="begin" lge="ST"/>
+      <pou name="iecDT2UNIX" sect="begin" lge="ST"/>
+      <pou name="iecUNIX2DT" sect="begin" lge="ST"/>
+      <pou name="t_FFSFC" sect="sfc" lge="FFSFC"/>
+      <pou name="t_SFC" sect="sfc" lge="SFC"/>
+      <pou name="pStartup" sect="end" lge="FBD"/>
+      <pou name="pShutDown" sect="end" lge="ST"/>
+      <pou name="pOnDivZero" sect="end" lge="ST"/>
+      <pou name="pOnBadIndex" sect="end" lge="ST"/>
+      <pou name="t_FBD" sect="end" lge="FBD"/>
+      <pou name="t_LD" sect="end" lge="LD"/>
+      <pou name="t_SAMA" sect="end" lge="SAMA"/>
+      <pou name="t_SP_FBD" sect="end" lge="FBD"/>
+      <pou name="t_FFLD" sect="end" lge="FFL"/>
+      <pou name="t_IL" sect="end" lge="IL"/>
+      <pou name="SPInAnSP" sect="end" lge="FBD"/>
+      <pou name="BlinkAET_ST_AB" sect="udfb" lge="ST"/>
+      <pou name="BlinkAET" sect="udfb" lge="FBD"/>
+   </poulist>
+</K5project>

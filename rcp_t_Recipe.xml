@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+   <recipes>
+      <recipe name="t_Recipe">
+         <rcpcolumns>
+            <rcpcolumn id="1" name="test"/>
+         </rcpcolumns>
+         <rcplines>
+            <rcpline name="@SIZECOL1=100"/>
+            <rcpline name="@SIZECOL2=100"/>
+            <rcpline name="@SIZECOL3=100"/>
+            <rcpline name="testBool"/>
+         </rcplines>
+         <rcpitem symbol="testBool">
+            <rcpvalue id="1" value="TRUE"/>
+         </rcpitem>
+      </recipe>
+   </recipes>
+</K5project>

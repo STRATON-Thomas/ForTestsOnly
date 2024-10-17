@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+   <definitions>
+<defines name="(GLOBAL)">// Exception programs
+
+#OnStartup pStartup
+#OnShutdown pShutdown
+#OnDivZero pOnDivZero
+#OnBadArrayIndex pOnBadIndex
+
+// add your definitions here
+
+//#warning_off (10023)
+</defines>
+   </definitions>
+</K5project>

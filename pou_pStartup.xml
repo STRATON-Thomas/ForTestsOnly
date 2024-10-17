@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+   <programs>
+      <pou name="pStartup" kind="program" period="1" phase="0" lge="FBD">
+         <vargroup name="pStartup" kind="LOCAL">
+         </vargroup>
+<defines name="pStartup"></defines>
+         <sourceFBD sxcell="16" sycell="16">
+            <FBDbreak id="7" order="0" dy="4" text="add your code here" style="3"/>
+            <FBDcomment id="1" order="0" dx="0" dy="1" sx="50" sy="2" style="3">pStartup: this program is called only once before the first cycle
+initialize variables from recipe: &apos;Initial values&apos;            </FBDcomment>
+         </sourceFBD>
+      </pou>
+   </programs>
+</K5project>
