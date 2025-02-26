@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+   <programs>
+      <pou name="XCBR1_Simu" kind="program" period="1" phase="0" lge="ST">
+         <vargroup name="XCBR1_Simu" kind="LOCAL">
+            <var name="Inst_TON" type="TON"/>
+            <var name="InProgress" type="BOOL"/>
+         </vargroup>
+<defines name="XCBR1_Simu"></defines>
+         <sourceSTIL>// Simulates the open/close action of an XCBR
+// Delay = 2s to be visible in the application
+
+Inst_TON( InProgress, T#2s ); // dbPos simulation takes T#2s to be open/close
+XCBR1_Pos_InProgress := ANY_TO_DINT(Inst_TON.ET);
+
+InProgress := STRATONLDevice1_XCBR1_Pos_Control = 200 AND // 200 = &apos;Operate&apos; in straton
+  ANY_TO_UDINT(STRATONLDevice1_XCBR1_Pos_Oper_ctlVal) &lt;&gt; STRATONLDevice1_XCBR1_Pos_stVal;
+
+// IMPORTANT! This code is only here for the visualization in the Graphics.
+// The management of the open/close action is done in the &quot;DBPOS_Simulation&quot; UDFB
+
+         </sourceSTIL>
+      </pou>
+   </programs>
+</K5project>

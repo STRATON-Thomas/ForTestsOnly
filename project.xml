@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<K5project version="1.1">
+   <settings>
+      <utf8comms value="ON"/>
+      <triggering cycletiming="10000"/>
+      <compiler>
+         <cmpoptions>
+            <opt name="configname" value="Default"/>
+            <opt name="simul" value="ON"/>
+            <opt name="debug" value="ON"/>
+            <opt name="ctseg" value="ON"/>
+            <opt name="fbdflow" value="ON"/>
+            <opt name="embedsymbols" value="ON"/>
+            <opt name="embedsybcase" value="ON"/>
+            <opt name="warning" value="ON"/>
+            <opt name="warniserr" value="OFF"/>
+            <opt name="sfcsafe" value="ON"/>
+            <opt name="fbdoptim" value="OFF"/>
+            <opt name="ldoptim" value="OFF"/>
+            <opt name="checksybconflicts" value="OFF"/>
+            <opt name="ststrict" value="OFF"/>
+            <opt name="ieccheck" value="OFF"/>
+            <opt name="tracepousize" value="OFF"/>
+            <opt name="checkprofile" value="OFF"/>
+            <opt name="safearray" value="ON"/>
+            <opt name="norealeq" value="OFF"/>
+            <opt name="stan" value="OFF"/>
+            <opt name="vsi" value="ON"/>
+            <opt name="fbcheck" value="OFF"/>
+            <opt name="noiostep" value="OFF"/>
+            <opt name="rtrigno0" value="OFF"/>
+            <opt name="ushr" value="OFF"/>
+            <opt name="uplall" value="OFF"/>
+            <opt name="strictretaincrc" value="OFF"/>
+            <opt name="optbool" value="OFF"/>
+            <opt name="loadupl" value="OFF"/>
+            <opt name="checkfbdinputs" value="OFF"/>
+            <opt name="updext" value="OFF"/>
+            <opt name="extdef" value="OFF"/>
+            <opt name="password" value="0"/>
+            <opt name="mwlog" value="OFF"/>
+            <opt name="vmheap" value="0"/>
+            <opt name="lock" value="ALL"/>
+            <opt name="cc" value=""/>
+            <opt name="cctooldir" value=""/>
+            <opt name="cctarget" value=""/>
+            <opt name="ccpure" value="OFF"/>
+            <opt name="ccload" value="OFF"/>
+            <opt name="ccshow" value="ON"/>
+            <opt name="cchot" value="OFF"/>
+            <opt name="spoptim" value="OFF"/>
+            <opt name="trace" value="OFF"/>
+            <opt name="tracetime" value="OFF"/>
+         </cmpoptions>
+         <cmpsimulcode>
+            <opt name="target" value="T5SIMUL"/>
+            <opt name="suffix" value=".XWS"/>
+            <opt name="motorolaendian" value="OFF"/>
+            <opt name="t5style" value="ON"/>
+         </cmpsimulcode>
+         <cmptargetcode>
+            <opt name="target" value="T5RTI"/>
+            <opt name="suffix" value=".XTI"/>
+            <opt name="motorolaendian" value="OFF"/>
+            <opt name="t5style" value="ON"/>
+            <opt name="configname" value="T5RTI"/>
+            <opt name="comment" value="Straton T5 runtime (Intel like byte ordering)"/>
+         </cmptargetcode>
+      </compiler>
+      <onlinechange>
+         <opt name="enable" value="0"/>
+         <opt name="size_d8" value="0"/>
+         <opt name="size_d16" value="0"/>
+         <opt name="size_d32" value="0"/>
+         <opt name="size_d64" value="0"/>
+         <opt name="size_tmr" value="0"/>
+         <opt name="size_actmr" value="0"/>
+         <opt name="size_str" value="0"/>
+         <opt name="size_strbuf" value="0"/>
+         <opt name="size_fbi" value="0"/>
+         <opt name="size_fbibuf" value="0"/>
+         <opt name="size_publish" value="0"/>
+         <opt name="size_xv" value="0"/>
+         <opt name="size_ct" value="0"/>
+         <opt name="size_pou" value="0"/>
+      </onlinechange>
+   <onlinecsts/>
+   <config name="Default.CPO">olc=0
+hot=D8=0,D16=0,D32=0,D64=0,TMR=0,ACTMR=0,STR=0,STRBUF=0,FBI=0,FBIBUF=0,PUB=0,CT=0,POU=0
+tcy=10000
+cpo:[OPTIONS]
+cpo:CONFIGNAME=Default
+cpo:SIMUL=ON
+cpo:DEBUG=ON
+cpo:CTSEG=ON
+cpo:FBDFLOW=ON
+cpo:EMBEDSYMBOLS=ON
+cpo:EMBEDSYBCASE=ON
+cpo:WARNING=ON
+cpo:WARNISERR=OFF
+cpo:SFCSAFE=ON
+cpo:FBDOPTIM=OFF
+cpo:LDOPTIM=OFF
+cpo:CHECKSYBCONFLICTS=OFF
+cpo:STSTRICT=OFF
+cpo:IECCHECK=OFF
+cpo:TRACEPOUSIZE=OFF
+cpo:CHECKPROFILE=OFF
+cpo:SAFEARRAY=ON
+cpo:NOREALEQ=OFF
+cpo:STAN=OFF
+cpo:VSI=ON
+cpo:FBCHECK=OFF
+cpo:NOIOSTEP=OFF
+cpo:RTRIGNO0=OFF
+cpo:USHR=OFF
+cpo:UPLALL=OFF
+cpo:STRICTRETAINCRC=OFF
+cpo:OPTBOOL=OFF
+cpo:LOADUPL=OFF
+cpo:CHECKFBDINPUTS=OFF
+cpo:UPDEXT=OFF
+cpo:EXTDEF=OFF
+cpo:PASSWORD=0
+cpo:MWLOG=OFF
+cpo:VMHEAP=0
+cpo:LOCK=ALL
+cpo:CC=
+cpo:CCTOOLDIR=
+cpo:CCTARGET=
+cpo:CCPURE=OFF
+cpo:CCLOAD=OFF
+cpo:CCSHOW=ON
+cpo:CCHOT=OFF
+cpo:SPOPTIM=OFF
+cpo:TRACE=OFF
+cpo:TRACETIME=OFF
+cpo:
+cpo:[SIMULCODE]
+cpo:TARGET=T5SIMUL
+cpo:SUFFIX=.XWS
+cpo:MOTOROLAENDIAN=OFF
+cpo:T5STYLE=ON
+cpo:
+cpo:[TARGETCODE]
+cpo:TARGET=T5RTI
+cpo:SUFFIX=.XTI
+cpo:MOTOROLAENDIAN=OFF
+cpo:T5STYLE=ON
+cpo:CONFIGNAME=T5RTI
+cpo:COMMENT=Straton T5 runtime (Intel like byte ordering)
+cpo:
+   </config>
+   </settings>
+   <libraries>
+      <library path="@Libs\DNP3SCD_CMD"/>
+   </libraries>
+   <poulist>
+      <pou name="iecDT2UNIX" sect="begin" lge="ST"/>
+      <pou name="iecUNIX2DT" sect="begin" lge="ST"/>
+      <pou name="XCBR1" sect="end" lge="FBD"/>
+      <pou name="LLN0" sect="end" lge="FBD"/>
+      <pou name="MMXU1" sect="end" lge="FBD"/>
+      <pou name="TimeQuality" sect="end" lge="ST"/>
+      <pou name="XCBR1_Simu" sect="end" lge="ST"/>
+      <pou name="IEC61850_SPC" sect="udfb" lge="ST"/>
+      <pou name="IEC61850_DPC" sect="udfb" lge="ST"/>
+      <pou name="DBPOS_Simulation" sect="udfb" lge="FBD"/>
+   </poulist>
+</K5project>
